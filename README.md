@@ -29,7 +29,9 @@
 
 ![d94fc82d-8d96-4a11-ab23-74ca995b9cfc](https://user-images.githubusercontent.com/43005911/52065547-17813800-25ba-11e9-8adb-54ba9ca49b42.png)
 
-⑶許可証の売却 opのみ実行可能
+⑶許可証の売却 
+
+(opのみ実行可能)
 
 (名前は許可証の所有者の名前を入力してください)
 
