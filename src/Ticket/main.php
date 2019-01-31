@@ -220,16 +220,16 @@ class main extends PluginBase implements Listener{
 			                     $sender->sendMessage("use: /tickets check <土地番号>");
 			                 }else{
 			                     if($this->height1->exists($args[1]) && !$this->height2->exists($args[1]) && !$this->height3->exists($args[1])){
-			                         $sender->sendMessage("土地番号 {$args[1]} はheight1を購入済みです");
+			                         $sender->sendMessage("§e>>土地番号 {$args[1]} はheight1を購入済みです");
 			                     }
 			                     if($this->height2->exists($args[1]) && !$this->height3->exists($args[1])){
-			                         $sender->sendMessage("土地番号 {$args[1]} はheight2を購入済みです");
+			                         $sender->sendMessage("§e>>土地番号 {$args[1]} はheight2を購入済みです");
 			                     }
 			                     if($this->height3->exists($args[1])){
-			                         $sender->sendMessage("土地番号 {$args[1]} はheight3を購入済みです");
+			                         $sender->sendMessage("§e>>土地番号 {$args[1]} はheight3を購入済みです");
 			                     }
-			                     if(!$this->height1->exists($args[1]) && !$this->height2->exists($args[1]) && $this->height3->exists($args[1])){
-			                         $sender->sendMessage(" 土地番号 {$args[1]} の許可証が見つかりませんでした");
+			                     if(!$this->height1->exists($args[1]) && !$this->height2->exists($args[1]) && !$this->height3->exists($args[1])){
+			                         $sender->sendMessage("§e>>土地番号 {$args[1]} の許可証が見つかりませんでした");
 			                     }
 			                 }
 			                 return true;
