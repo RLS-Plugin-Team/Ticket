@@ -1,0 +1,21 @@
+---
+name: Ticket
+main: Ticket\main
+version: 1.0.0
+api:
+- 3.0.0
+- 4.0.0
+- 3.1.4
+author: narapon
+load: POSTWORLD
+commands:
+  ticket:
+    description: 許可証の購入
+    usage: /ticket <許可証名> <土地番号>
+  delticket:
+    description: 許可証の売却
+    usage: /delticket <許可証名> <土地番号> <名前>
+  tickets:
+    description: 許可証 購入済み土地番号表示
+    usage: /tickets <許可証名> (/tickets check <土地番号>)
+...
